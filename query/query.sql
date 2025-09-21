@@ -180,7 +180,7 @@ JOIN content_performance_metrics cpm ON cp.id = cpm.content_id
 GROUP BY h.id, h.tag_name, h.category, h.popularity_score, h.trend_score
 HAVING COUNT(ch.content_id) >= 5
 ORDER BY h.trend_score DESC, avg_engagement_rate DESC
-LIMIT 30;
+LIMIT 20;
 
 -- 7. USER ENGAGEMENT VELOCITY ANALYSIS
 -- Analyzes how quickly content gains engagement after posting
