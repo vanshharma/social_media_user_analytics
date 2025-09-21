@@ -1,0 +1,83 @@
+# Social Media Analytics Platform - Python Dependencies
+# © 2024 Social Media Analytics Platform. All rights reserved.
+
+# Core Data Processing
+pandas>=1.5.0
+numpy>=1.21.0
+scipy>=1.9.0
+
+# Database Connectivity
+psycopg2-binary>=2.9.0
+sqlalchemy>=1.4.0
+pymysql>=1.0.0
+
+# Data Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.10.0
+bokeh>=2.4.0
+
+# Machine Learning
+scikit-learn>=1.1.0
+tensorflow>=2.10.0
+keras>=2.10.0
+xgboost>=1.6.0
+lightgbm>=3.3.0
+
+# Natural Language Processing
+nltk>=3.7
+spacy>=3.4.0
+textblob>=0.17.0
+vaderSentiment>=3.3.0
+
+# Time Series Analysis
+statsmodels>=0.13.0
+prophet>=1.1.0
+arch>=5.3.0
+
+# Web Scraping and APIs
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+selenium>=4.5.0
+tweepy>=4.12.0
+instaloader>=4.9.0
+
+# Data Storage and Caching
+redis>=4.3.0
+pymongo>=4.2.0
+elasticsearch>=8.5.0
+
+# Configuration and Environment
+python-dotenv>=0.20.0
+pyyaml>=6.0
+configparser>=5.3.0
+
+# Logging and Monitoring
+loguru>=0.6.0
+prometheus-client>=0.14.0
+
+# Testing
+pytest>=7.1.0
+pytest-cov>=3.0.0
+pytest-mock>=3.8.0
+
+# Development Tools
+jupyter>=1.0.0
+ipykernel>=6.15.0
+notebook>=6.4.0
+jupyterlab>=3.4.0
+
+# Code Quality
+black>=22.6.0
+flake8>=5.0.0
+isort>=5.10.0
+mypy>=0.971
+
+# Documentation
+sphinx>=5.1.0
+sphinx-rtd-theme>=1.0.0
+
+# Utilities
+tqdm>=4.64.0
+click>=8.1.0
+rich>=12.5.0

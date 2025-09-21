@@ -1,0 +1,105 @@
+# Social Media Analytics Platform Configuration
+# © 2024 Social Media Analytics Platform. All rights reserved.
+
+# Database Configuration
+database:
+  host: "localhost"
+  port: 5432
+  name: "social_media_analytics"
+  user: "postgres"
+  password: "your_password_here"
+  pool_size: 10
+  max_overflow: 20
+
+# API Configuration
+apis:
+  instagram:
+    base_url: "https://graph.instagram.com"
+    version: "v18.0"
+    rate_limit: 200  # requests per hour
+  twitter:
+    base_url: "https://api.twitter.com/2"
+    rate_limit: 300  # requests per 15 minutes
+  tiktok:
+    base_url: "https://open-api.tiktok.com"
+    rate_limit: 100  # requests per hour
+
+# Machine Learning Configuration
+ml_models:
+  engagement_predictor:
+    model_type: "random_forest"
+    n_estimators: 100
+    max_depth: 10
+    random_state: 42
+  content_classifier:
+    model_type: "gradient_boosting"
+    n_estimators: 200
+    learning_rate: 0.1
+    max_depth: 6
+
+# Analytics Configuration
+analytics:
+  engagement_metrics:
+    - "likes_count"
+    - "comments_count"
+    - "shares_count"
+    - "saves_count"
+    - "reach_count"
+    - "impressions_count"
+  content_categories:
+    - "lifestyle"
+    - "food"
+    - "travel"
+    - "fashion"
+    - "beauty"
+    - "fitness"
+    - "technology"
+    - "business"
+  user_segments:
+    - "high_performer"
+    - "consistent_creator"
+    - "regular_poster"
+    - "occasional_poster"
+    - "inactive_user"
+
+# Dashboard Configuration
+dashboards:
+  refresh_interval: 300  # seconds
+  max_data_points: 1000
+  chart_types:
+    - "line"
+    - "bar"
+    - "pie"
+    - "scatter"
+    - "heatmap"
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/analytics_platform.log"
+  max_size: "10MB"
+  backup_count: 5
+
+# Security Configuration
+security:
+  secret_key: "your_secret_key_here"
+  jwt_expiration: 3600  # seconds
+  password_min_length: 8
+  max_login_attempts: 5
+  lockout_duration: 900  # seconds
+
+# Performance Configuration
+performance:
+  cache_ttl: 300  # seconds
+  max_concurrent_requests: 100
+  request_timeout: 30  # seconds
+  batch_size: 1000
+
+# Feature Flags
+features:
+  enable_ml_predictions: true
+  enable_real_time_analytics: true
+  enable_automated_reporting: true
+  enable_api_integrations: true
+  enable_user_segmentation: true
