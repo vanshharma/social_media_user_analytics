@@ -87,7 +87,7 @@ To set up the Social Media Engagement Analytics Platform:
 
 2. **Installation:**
    ```bash
-   git clone https://github.com/yourusername/social-media-analytics-platform.git
+   git clone https://github.com/vanshharma/social-media-analytics-platform.git
    cd social-media-analytics-platform
    pip install -r requirements.txt
    ```
@@ -154,18 +154,15 @@ The platform supports integration with major social media APIs:
 This project is licensed under the [MIT License](LICENSE).
 
 ## Author
-- **©2024 [Your Name]. All rights reserved**
-- **[LinkedIn](https://www.linkedin.com/in/yourprofile/)**
-- **[GitHub](https://github.com/yourusername)**
-- **[Portfolio](https://yourportfolio.com/)**
+- **©2024 Vansh sharma. All rights reserved**
+- **[LinkedIn](https://www.linkedin.com/in/vansh-sharma-06098720b/)**
+- **[GitHub](https://github.com/vanshharma)**
+
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## Contact
-
-If you have any questions, suggestions, or just want to say hello, you can reach out at [your.email@example.com](mailto:your.email@example.com). We would love to hear from you!
 
 ## Acknowledgments
 
